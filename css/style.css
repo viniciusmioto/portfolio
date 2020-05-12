@@ -44,3 +44,8 @@ a:hover {
     text-align: center;
     font-style: italic;
 }
+
+.img-portfolio {
+    height: 80px;
+    width: 80px;
+}
