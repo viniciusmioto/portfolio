@@ -7,21 +7,37 @@
 body {
     background: rgb(15, 19, 22);
     background-size: auto 100vh;
-    color: rgb(45, 121, 235);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
+    color: darkgrey;
+    font-family: 'Noto Sans', cursive;
+    font-size: 14px;
 
 }
 
 @media (min-width: 400px) {
     body{
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .portfolio h3 {
+        font-size: 22px;
     }
 }
 
 @media (min-width: 600px) {
     body{
         font-size: 18px;
+    }
+
+    .menu a {
+        font-size: 22px;
+    }
+
+    .portfolio h3 {
+        font-size: 30px;
     }
 }
 
@@ -31,7 +47,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 
 a {
     color: white;
@@ -45,6 +60,8 @@ a:hover {
 .menu a {
     display: block;
     padding: 10px 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
 }
 
 .menu ul {
@@ -66,6 +83,7 @@ a:hover {
 .site-title {
     color: darkcyan;
     text-align: center;
+    font-family: 'Lobster', cursive;
     font-size: 3em;
 }
 
@@ -73,9 +91,25 @@ a:hover {
     color: darkgrey;
     text-align: center;
     font-style: italic;
+    line-height: 1.8em;
+}
+
+.portfolio h3 {
+    font-family: "Comfortaa", cursive;
+    color: rgb(45, 121, 235);
+    font-size: 18px;
 }
 
 .img-portfolio {
     height: 80px;
     width: 80px;
 }
+
+
+/*
+    font-family: 'Comfortaa', cursive;
+
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Noto Sans', sans-serif;
+*/
