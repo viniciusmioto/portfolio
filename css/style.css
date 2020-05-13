@@ -19,7 +19,7 @@ body {
     }
 
     .menu a {
-        font-size: 18px;
+        font-size: 0.2em;
     }
 
     .projetos h3 {
@@ -28,13 +28,28 @@ body {
 
 }
 
+@media (min-width: 560px) {
+    .projetos .grid {
+        align-items: center;
+        grid-template-columns: 130px auto;
+        gap: 1.8em;
+        justify-content: center;
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+
+    .menu a {
+        font-size: 0.3em;
+    }
+}
+
 @media (min-width: 600px) {
     body {
         font-size: 20px;
     }
 
     .menu a {
-        font-size: 22px;
+        font-size: 0.4em;
     }
 
     .projetos h3 {
@@ -49,7 +64,7 @@ body {
     }
 
     .menu a {
-        font-size: 24px;
+        font-size: 0.6em;
     }
 
     .projetos h3 {
@@ -59,7 +74,7 @@ body {
 }
 
 header {
-    height: 95vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +93,7 @@ a:hover {
     display: block;
     padding: 10px 20px;
     font-family: 'Comfortaa', cursive;
-    font-size: 14px;
+    font-size: 0.8em;
 }
 
 .menu ul {
@@ -122,16 +137,6 @@ a:hover {
     gap: 1em;
 }
 
-@media (min-width: 560px) {
-    .projetos .grid {
-        align-items: center;
-        grid-template-columns: 130px auto;
-        gap: 1.8em;
-        justify-content: center;
-        margin-left: 1em;
-        margin-right: 2em;
-    }
-}
 
 .projetos figure {
     text-align: center;
@@ -144,7 +149,7 @@ a:hover {
 }
 
 .scroll-arrow {
-    height: 10vh;
+    height: 14vh;
     position: relative;
     width: 49vw;
     align-self: center;
@@ -159,7 +164,7 @@ a:hover {
 }
 
 figcaption {
-    color: darkcyan;
+    color: rgb(45, 121, 235);
     font-family: 'Comfortaa', cursive;
     text-align: center;
 }
