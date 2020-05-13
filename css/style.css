@@ -8,9 +8,9 @@ body {
     background: rgb(15, 19, 22);
     background-size: auto 100vh;
     color: darkgrey;
-    font-family: 'Noto Sans', cursive;
     font-size: 15px;
-
+    font-family: 'Noto Sans', serif;
+    text-align: justify;
 }
 
 @media (min-width: 400px) {
@@ -22,7 +22,7 @@ body {
         font-size: 18px;
     }
 
-    .portfolio h3 {
+    .projetos h3 {
         font-size: 22px;
     }
 
@@ -37,7 +37,7 @@ body {
         font-size: 22px;
     }
 
-    .portfolio h3 {
+    .projetos h3 {
         font-size: 30px;
     }
 
@@ -52,7 +52,7 @@ body {
         font-size: 24px;
     }
 
-    .portfolio h3 {
+    .projetos h3 {
         font-size: 32px;
     }
 
@@ -110,24 +110,39 @@ a:hover {
     font-family: 'Comfortaa', cursive;
     font-style: italic;
     font-size: 1em;
-    line-height: 1.2em;
-    
+    line-height: 1.2em; 
 }
 
-.portfolio h3 {
+.projetos {
+    padding: 2em;
+}
+
+.projetos .grid {
+    display: grid;
+    gap: 1em;
+}
+
+@media (min-width: 560px) {
+    .projetos .grid {
+        align-items: center;
+        grid-template-columns: 130px auto;
+        gap: 1.8em;
+        justify-content: center;
+    }
+}
+
+.projetos figure {
     text-align: center;
-    color: rgb(45, 121, 235);
-    font-family: "Comfortaa", cursive;
-    font-size: 18px;
 }
 
-.img-portfolio {
+.img-projetos {
     height: 80px;
     width: 80px;
+    margin-top: 1.8em;
 }
 
 .scroll-arrow {
-    height: 8vh;
+    height: 10vh;
     position: relative;
     width: 49vw;
     align-self: center;
@@ -139,6 +154,25 @@ a:hover {
 .img-scroll-arrow {
     height: 20px;
     width: 20px;
+}
+
+figcaption {
+    color: darkcyan;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(45, 121, 235);
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+
+.h6 {
+    font-size: 8px;
+    text-align: right;
+    font-family: 'Comfortaa', cursive;
 }
 
 /*
