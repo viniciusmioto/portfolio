@@ -14,7 +14,7 @@ body {
 }
 
 @media (min-width: 400px) {
-    body{
+    body {
         font-size: 18px;
     }
 
@@ -29,7 +29,7 @@ body {
 }
 
 @media (min-width: 600px) {
-    body{
+    body {
         font-size: 20px;
     }
 
@@ -115,8 +115,9 @@ a:hover {
 }
 
 .portfolio h3 {
-    font-family: "Comfortaa", cursive;
+    text-align: center;
     color: rgb(45, 121, 235);
+    font-family: "Comfortaa", cursive;
     font-size: 18px;
 }
 
@@ -126,11 +127,13 @@ a:hover {
 }
 
 .scroll-arrow {
-    height: 5vh;
+    height: 8vh;
     position: relative;
     width: 49vw;
     align-self: center;
-    left: 50%;
+    left: 49%;
+    scroll-behavior: smooth;
+    opacity: 70%;
 }
 
 .img-scroll-arrow {
