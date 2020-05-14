@@ -182,7 +182,7 @@ a:hover {
 
 .scroll-arrow a:active,
 .scroll-arrow a:hover {
-    color: rgb(45, 121, 235);
+    color: darkcyan;
     scroll-behavior: smooth;
 }
 
