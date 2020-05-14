@@ -29,12 +29,13 @@ body {
 }
 
 @media (min-width: 560px) {
+    .sobre .grid,
     .projetos .grid {
         align-items: center;
         grid-template-columns: 130px auto;
         gap: 1.8em;
         justify-content: center;
-        margin-left: 1em;
+        margin-left: 2em;
         margin-right: 2em;
     }
 
@@ -54,6 +55,10 @@ body {
 
     .projetos h3 {
         font-size: 30px;
+    }
+
+    .contato .grid {
+        grid-template-columns: repeat(6, auto);
     }
 
 }
@@ -128,16 +133,20 @@ a:hover {
     line-height: 1.2em; 
 }
 
-.projetos {
+.sobre,
+.projetos,
+.contato {
     padding: 2em;
 }
 
+.sobre .grid,
 .projetos .grid {
     display: grid;
-    gap: 1em;
+    gap: 2.4em;
 }
 
-
+.contato figure,
+.sobre figure,
 .projetos figure {
     text-align: center;
 }
@@ -163,10 +172,43 @@ a:hover {
     width: 20px;
 }
 
-figcaption {
-    color: rgb(45, 121, 235);
+
+.img-social,
+.img-lang {
+    height: 40px;
+    width: 40px;
+}
+
+.projetos figcaption {
+    color: darkslateblue;
     font-family: 'Comfortaa', cursive;
     text-align: center;
+}
+
+.sobre figcaption {
+    color: darkcyan;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.contato figcaption {
+    color: darkgray;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.contato .grid {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+}
+
+.sobre .small-grid{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    align-items: center;
 }
 
 h3 {
@@ -175,6 +217,7 @@ h3 {
     font-family: 'Comfortaa', cursive;
     font-size: 1.5em;
     padding-top: 2em;
+    padding-bottom: 1em;
 }
 
 .h6 {
