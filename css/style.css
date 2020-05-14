@@ -99,6 +99,12 @@ a:hover {
     padding: 10px 20px;
     font-family: 'Comfortaa', cursive;
     font-size: 0.8em;
+    transition: color 1s;
+}
+
+.menu a:active,
+.menu a:hover {
+    color: darkcyan;
 }
 
 .menu ul {
@@ -167,9 +173,17 @@ a:hover {
     opacity: 70%;
 }
 
-.img-scroll-arrow {
-    height: 20px;
-    width: 20px;
+.scroll-arrow a {
+    color: darkgray;
+    transition: color, 1s;
+    scroll-behavior: smooth;
+    font-size: 1.2em;
+}
+
+.scroll-arrow a:active,
+.scroll-arrow a:hover {
+    color: rgb(45, 121, 235);
+    scroll-behavior: smooth;
 }
 
 
@@ -177,6 +191,11 @@ a:hover {
 .img-lang {
     height: 40px;
     width: 40px;
+}
+
+.img-social a:hover {
+    height: 50px;
+    width: 50px;
 }
 
 .projetos figcaption {
