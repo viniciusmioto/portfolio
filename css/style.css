@@ -117,10 +117,24 @@ a:hover {
     position: fixed;
     width: 100vw;
     top: 0;
+    z-index: 1;
 }
 
 .menu li {
     list-style: none;
+}
+
+.title {
+    transform: scale(0.4) translateY(30vh);
+    opacity: 0%;
+    animation: 1.2s linear 0.3s introTitulo forwards;
+}
+
+@keyframes introTitulo{
+    100%{
+        transform: scale(1) translateY(0);
+        opacity: 100%;
+    }
 }
 
 .site-title {
@@ -163,6 +177,31 @@ a:hover {
     margin-top: 1.8em;
 }
 
+.projetos .print {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.print figure .img-portfolio {
+    align-items: center;
+    position: relative;
+    height: 270px;
+    width: 180px;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 1s;
+    transform: scale(1);
+}
+
+.print figure .img-portfolio:active,
+.print figure .img-portfolio:hover {
+    transform: scale(1.2);
+}
+
 .scroll-arrow {
     height: 14vh;
     position: relative;
@@ -170,7 +209,16 @@ a:hover {
     align-self: center;
     left: 49%;
     scroll-behavior: smooth;
-    opacity: 70%;
+    opacity: 0%;
+    transform: translateY(30vh);
+    animation: 1.2s linear 0.3s introArrow forwards;
+}
+
+@keyframes introArrow {
+    100%{
+        transform: translateY(0);
+        opacity: 100%;
+    }
 }
 
 .scroll-arrow a {
