@@ -22,8 +22,8 @@ body {
         font-size: 0.2em;
     }
 
-    .projetos h3 {
-        font-size: 22px;
+    .h3 {
+        font-size: 0.2em;
     }
 
 }
@@ -53,8 +53,8 @@ body {
         font-size: 0.4em;
     }
 
-    .projetos h3 {
-        font-size: 30px;
+    .h3 {
+        font-size: 0.4px;
     }
 
     .contato .grid {
@@ -72,11 +72,27 @@ body {
         font-size: 0.6em;
     }
 
-    .projetos h3 {
-        font-size: 32px;
+    .h3 {
+        font-size: 0.6em;
     }
 
 }
+
+@media (min-width: 1200px) {
+
+    .h3 {
+        font-size: 2.1em;
+    }
+
+    .sobre,
+    .contato,
+    .projetos,
+    .menu a {
+        max-width: 1200px;
+    }
+
+}
+
 
 header {
     height: 90vh;
@@ -86,7 +102,7 @@ header {
 }
 
 a {
-    color: white;
+    color: rgb(45, 121, 235);
     text-decoration: none;
 }
 
@@ -95,6 +111,7 @@ a:hover {
 }
 
 .menu a {
+    color: darkgray;
     display: block;
     padding: 10px 20px;
     font-family: 'Comfortaa', cursive;
@@ -104,7 +121,7 @@ a:hover {
 
 .menu a:active,
 .menu a:hover {
-    color: darkcyan;
+    color: rgb(45, 121, 235);
 }
 
 .menu ul {
@@ -157,18 +174,21 @@ a:hover {
 .projetos,
 .contato {
     padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.sobre .grid,
-.projetos .grid {
-    display: grid;
-    gap: 2.4em;
+.projetos p,
+.sobre p {
+    text-indent: 2em;
+    margin-bottom: 1.4em;
 }
 
 .contato figure,
 .sobre figure,
 .projetos figure {
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .img-projetos {
@@ -195,6 +215,7 @@ a:hover {
     object-position: top;
     transition: transform 1s;
     transform: scale(1);
+    margin-top: 1em;
 }
 
 .print figure .img-portfolio:active,
@@ -268,11 +289,6 @@ a:hover {
     transform: scale(1.5);
 }
 
-.img-social a:hover {
-    height: 50px;
-    width: 50px;
-}
-
 .projetos figcaption {
     color: darkslateblue;
     font-family: 'Comfortaa', cursive;
@@ -312,6 +328,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(3, auto);
     align-items: center;
+    align-content: center;
 }
 
 h3 {
@@ -323,10 +340,11 @@ h3 {
     padding-bottom: 1em;
 }
 
-.h6 {
-    font-size: 8px;
+h6 {
+    font-size: 0.5em;
     text-align: right;
     font-family: 'Comfortaa', cursive;
+    margin-right: 2em;
 }
 
 /*
