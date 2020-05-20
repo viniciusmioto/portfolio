@@ -316,7 +316,8 @@ a:hover {
     align-items: center;
 }
 
-.sobre .small-grid{
+.projetos .small-grid,
+.sobre .small-grid {
     margin-top: 1em;
     display: grid;
     gap: 1em;
