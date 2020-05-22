@@ -11,7 +11,6 @@ body {
     font-size: 15px;
     font-family: 'Noto Sans', serif;
     text-align: justify;
-    hyphens: auto;
 }
 
 @media (min-width: 400px) {
@@ -184,6 +183,10 @@ a:hover {
     text-indent: 2em;
     margin-bottom: 1.4em;
     hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+
 }
 
 .contato figure,
