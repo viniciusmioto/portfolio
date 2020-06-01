@@ -10,10 +10,13 @@ function scrollToIdOnCLick(event) {
 }
 
 function scrollToPosition(to) {
+    /*
     window.scroll({
         top: to,
         behavior: "smooth",
     });
+    */
+   smoothScrollTo(0, to, 1500)
 }
 
 function getScrollTopByHref(element) {
@@ -21,7 +24,6 @@ function getScrollTopByHref(element) {
     return document.querySelector(id).offsetTop
 }
 
-/*
 function smoothScrollTo(endX, endY, duration) {
   const startX = window.scrollX || window.pageXOffset;
   const startY = window.scrollY || window.pageYOffset;
@@ -47,4 +49,3 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60); // 60 fps
 };
-*/
