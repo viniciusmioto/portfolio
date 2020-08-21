@@ -7,7 +7,7 @@
 
 ### What I'm working on 👨‍💻
 
-📱 Currently building a mobile sports app for IFPR <br>
+📱 Currently building a mobile app to IFPR (for sport activities) <br>
 You can view and contribute on [SportIF](https://github.com/viniciusmioto/sportif) <br>
 
 ### Find me elsewhere 🌎
