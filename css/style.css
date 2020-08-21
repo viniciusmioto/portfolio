@@ -207,6 +207,7 @@ a:hover {
     height: 80px;
     width: 80px;
     margin-top: 1.8em;
+    border-radius: 50%;
 }
 
 .projetos .print {
