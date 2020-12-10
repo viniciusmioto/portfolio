@@ -7,8 +7,7 @@
 
 ### What I'm working on 👨‍💻
 
-📱 Currently building a mobile app to IFPR (for sport activities) <br>
-You can view and contribute on [SportIF](https://github.com/viniciusmioto/sportif) <br>
+🖥️ I'm a researcher at [PET Computação - UFPR] (https://web.inf.ufpr.br/pet/) <br>
 
 ### Find me elsewhere 🌎
 
