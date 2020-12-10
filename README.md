@@ -7,7 +7,7 @@
 
 ### What I'm working on 👨‍💻
 
-🖥️ I'm a researcher at [PET Computação - UFPR] (https://web.inf.ufpr.br/pet/) <br>
+🖥️ I'm a researcher at [PET Computação - UFPR](https://web.inf.ufpr.br/pet/) <br>
 
 ### Find me elsewhere 🌎
 
