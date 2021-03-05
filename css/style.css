@@ -193,9 +193,9 @@ a:hover {
     text-indent: 2em;
     margin-bottom: 1.4em;
     hyphens: none;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
 
 }
 
