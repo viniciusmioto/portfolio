@@ -217,6 +217,7 @@ a:hover {
     height: 160px;
     width: 160px;
     border-radius: 10%;
+    margin-top: 1.2em;
 }
 
 .projetos .print {
@@ -348,7 +349,7 @@ a:hover {
 
 .sobre .mini-grid{
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     display: grid;
     grid-template-columns: repeat(3, auto);
     align-items: center;
@@ -366,7 +367,7 @@ h3 {
     font-family: 'Comfortaa', cursive;
     font-size: 1.5em;
     padding-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
 
 h6 {
