@@ -336,6 +336,7 @@ a:hover {
     gap: 1em;
     grid-template-columns: repeat(3, auto);
     align-items: center;
+    padding-top: 1.2em;
 }
 
 .projetos .small-grid,
@@ -358,7 +359,7 @@ a:hover {
 
 .sobre li {
     margin-left: 1em;
-    text-align: left;
+    text-align: center;
 }
 
 h3 {

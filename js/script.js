@@ -1,27 +1,27 @@
 const menuItems = document.querySelectorAll('.menu a[href^="#"]')
 menuItems.forEach(item => {
-    item.addEventListener('click', scrollToIdOnCLick)
+  item.addEventListener('click', scrollToIdOnCLick)
 })
 
 function scrollToIdOnCLick(event) {
-    event.preventDefault()
-    const to = getScrollTopByHref(event.target)
-    scrollToPosition(to)
+  event.preventDefault()
+  const to = getScrollTopByHref(event.target)
+  scrollToPosition(to)
 }
 
 function scrollToPosition(to) {
-    /*
-    window.scroll({
-        top: to,
-        behavior: "smooth",
-    });
-    */
-   smoothScrollTo(0, to, 1500)
+
+  window.scroll({
+    top: to,
+    behavior: "smooth",
+  });
+
+  smoothScrollTo(0, to, 1500)
 }
 
 function getScrollTopByHref(element) {
-    const id = element.getAttribute('href')
-    return document.querySelector(id).offsetTop
+  const id = element.getAttribute('href')
+  return document.querySelector(id).offsetTop
 }
 
 function smoothScrollTo(endX, endY, duration) {
