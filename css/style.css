@@ -8,7 +8,7 @@ body {
     background: rgb(15, 19, 22);
     background-size: auto 100vh;
     color: darkgrey;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Noto Sans', serif;
     text-align: center;
 }
@@ -190,7 +190,7 @@ a:hover {
 
 .projetos p,
 .sobre p {
-    text-indent: 2em;
+    text-indent: 0em;
     margin-bottom: 1.4em;
     hyphens: none;
     -moz-hyphens: none;
