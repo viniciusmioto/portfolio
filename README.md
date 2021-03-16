@@ -1,13 +1,13 @@
 # Portfolio
 ### Hey, I'm Vinícius Mioto! 👋
 
-🏫 Information Technology technician at [IFPR](https://colombo.ifpr.edu.br/) <br>
-🏛️ Computer Science student at [UFPR](https://www.ufpr.br/portalufpr/) <br>
+🧑‍💻 Information Technology technician at [IFPR](https://colombo.ifpr.edu.br/) <br>
+💻 BSc in Computer Science at [UFPR](https://www.ufpr.br/portalufpr/) <br>
 🇧🇷 Curitiba, Brazil <br>
 
 ### What I'm working on 👨‍💻
 
-🖥️ I'm a researcher at [PET Computação - UFPR](https://web.inf.ufpr.br/pet/) <br>
+🔎 I'm a researcher at [PET Computação - UFPR](https://web.inf.ufpr.br/pet/) <br>
 
 ### Find me elsewhere 🌎
 
