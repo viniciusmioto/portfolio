@@ -66,6 +66,8 @@ body {
 @media (min-width: 1000px) {
     body{
         font-size: 22px;
+        padding: 0;
+        margin: 0;
     }
 
     .menu a {
@@ -75,6 +77,18 @@ body {
     .h3 {
         font-size: 0.6em;
     }
+
+    .academic .grid,
+    .sobre .grid {
+    display: grid;
+    gap: 4em;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 2;
+    align-items: center;
+    padding-top: 1.2em;
+    grid-row-start: spam;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -84,17 +98,25 @@ body {
     }
 
     .sobre,
+    .academic,
     .contato,
     .projetos,
     .menu a {
         max-width: 1200px;
     }
+
     .projetos .print-grid {
         margin-top: 1em;
         display: grid;
         gap: 1em;
         grid-template-columns: repeat(4, auto);
         align-items: center;
+    }
+
+    .sobre figure,
+    .academic figure {
+        margin: 0;
+        padding: 0;;
     }
 
 }
@@ -181,6 +203,7 @@ a:hover {
 
 .sobre,
 .projetos,
+.academic,
 .contato {
     padding: 2em;
     margin-left: auto;
@@ -188,6 +211,7 @@ a:hover {
 }
 
 .projetos p,
+.academic,
 .sobre p {
     text-indent: 0em;
     margin-bottom: 1.4em;
@@ -200,7 +224,8 @@ a:hover {
 
 .contato figure,
 .sobre figure,
-.projetos figure {
+.projetos figure,
+.academic figure {
     text-align: center;
     margin-bottom: 1em;
 }
@@ -256,7 +281,7 @@ a:hover {
     transform: translateY(-20vh);
     animation: 5s linear 1.8s introArrow forwards;
 }
-*/
+
 
 @keyframes introArrow {
     0%{
@@ -284,6 +309,7 @@ a:hover {
         opacity: 90%;
     }
 }
+*/
 
 .scroll-arrow a {
     color: darkgray;
@@ -312,13 +338,9 @@ a:hover {
     transform: scale(1.5);
 }
 
-.projetos figcaption {
-    color: darkcyan;
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-}
-
-.sobre figcaption {
+.sobre figcaption,
+.projetos figcaption,
+.academic figure {
     color: darkcyan;
     font-family: 'Comfortaa', cursive;
     text-align: center;
