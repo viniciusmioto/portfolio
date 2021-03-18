@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(15, 19, 22);
+    background: rgb(18, 16, 27);
     background-size: auto 100vh;
     color: darkgrey;
     font-size: 16px;
@@ -75,7 +75,6 @@ body {
     .h3 {
         font-size: 0.6em;
     }
-
 }
 
 @media (min-width: 1200px) {
@@ -350,7 +349,6 @@ a:hover {
 
 .sobre .mini-grid{
     margin-top: 1em;
-    margin-bottom: 1em;
     display: grid;
     grid-template-columns: repeat(3, auto);
     align-items: center;
@@ -358,8 +356,15 @@ a:hover {
 }
 
 .sobre li {
-    margin-left: 1em;
     text-align: center;
+}
+
+.subtopic li {
+    list-style-type: circle;
+}
+
+.subtopic ul {
+    list-style-type: circle;
 }
 
 h3 {
@@ -367,7 +372,16 @@ h3 {
     color: rgb(45, 121, 235);
     font-family: 'Comfortaa', cursive;
     font-size: 1.5em;
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+}
+
+h2 {
+    text-align: center;
+    color: darkcyan;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2em;
+    padding-top: 1em;
     padding-bottom: 0em;
 }
 
