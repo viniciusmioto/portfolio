@@ -86,7 +86,7 @@ body {
     grid-template-rows: 2;
     align-items: center;
     padding-top: 1.2em;
-    grid-row-start: spam;
+    grid-row-start: span;
     }
 
 }
