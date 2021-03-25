@@ -19,6 +19,7 @@ ul {
 
 .bg-steel {
   background-color: black;
+  box-shadow: 0.22px 0.22px 0.22px 0.28px rgb(40, 40, 41);
 }
 
 .site-header .navbar-nav .nav-link {
