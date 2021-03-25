@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(18, 16, 27);
+    background: rgb(12, 12, 27);
     background-size: auto 100vh;
     color: darkgrey;
     font-size: 16px;
@@ -80,13 +80,11 @@ body {
 
     .academic .grid,
     .sobre .grid {
-    display: grid;
-    gap: 4em;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: 2;
-    align-items: center;
-    padding-top: 1.2em;
-    grid-row-start: span;
+        display: grid;
+        align-items: left;
+        align-content: left;
+        grid-row-start: span;
+        grid-template-columns: auto 30em;
     }
 
 }
@@ -169,37 +167,13 @@ a:hover {
     list-style: none;
 }
 
-/*
-.title {
-    transform: scale(0.4) translateY(30vh);
-    opacity: 0%;
-    animation: 1.2s linear 0.3s introTitulo forwards;
+.card {
+    margin: 1em;
+    box-shadow: 4px 4px 8px 4px black;
+    padding: 10px 10px 20px 10px;
+    background-color: rgb(3, 3, 20);
+    border-radius: 1em;
 }
-
-
-@keyframes introTitulo{
-    100%{
-        transform: scale(1) translateY(0);
-        opacity: 100%;
-    }
-}
-
-.site-title {
-    color: darkcyan;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 3em;
-}
-
-.site-subtitle {
-    color: darkgrey;
-    text-align: center;
-    font-family: 'Comfortaa', cursive;
-    font-style: italic;
-    font-size: 1em;
-    line-height: 1.2em; 
-}
-*/
 
 .sobre,
 .projetos,
@@ -214,7 +188,7 @@ a:hover {
 .academic,
 .sobre p {
     text-indent: 0em;
-    margin-bottom: 1.4em;
+    margin-bottom: 1em;
     hyphens: none;
     -moz-hyphens: none;
     -webkit-hyphens: none;
@@ -238,10 +212,9 @@ a:hover {
 }
 
 .profile-pic {
-    height: 160px;
-    width: 160px;
-    border-radius: 10%;
-    margin-top: 1.2em;
+    height: 200px;
+    width: 200px;
+    margin-top: 1.5em;
 }
 
 .projetos .print {
@@ -268,48 +241,6 @@ a:hover {
 .print:hover {
     transform: scale(1.2);
 }
-
-/*
-.scroll-arrow {
-    height: 14vh;
-    position: relative;
-    width: 49vw;
-    align-self: center;
-    left: 49%;
-    scroll-behavior: smooth;
-    opacity: 0%;
-    transform: translateY(-20vh);
-    animation: 5s linear 1.8s introArrow forwards;
-}
-
-
-@keyframes introArrow {
-    0%{
-        opacity: 0%;
-        transform: translateY(-20vh);
-    }
-
-    40%{
-        transform: translateY(0);
-        opacity: 70%;
-    }
-
-    60%{
-        transform: translateY(-10vh);
-        opacity: 50%;
-    }
-
-    80%{
-        transform: translateY(-5vh);
-        opacity: 70%;
-    }
-
-    100%{
-        transform: translateY(0vh);
-        opacity: 90%;
-    }
-}
-*/
 
 .scroll-arrow a {
     color: darkgray;
@@ -394,8 +325,7 @@ h3 {
     color: rgb(45, 121, 235);
     font-family: 'Comfortaa', cursive;
     font-size: 1.5em;
-    padding-top: 1em;
-    padding-bottom: 0.2em;
+    margin: 1em;
 }
 
 h2 {
@@ -403,8 +333,7 @@ h2 {
     color: darkcyan;
     font-family: 'Comfortaa', cursive;
     font-size: 1.2em;
-    padding-top: 1em;
-    padding-bottom: 0em;
+    margin-top: 2em;
 }
 
 h6 {
@@ -413,3 +342,4 @@ h6 {
     font-family: 'Comfortaa', cursive;
     margin-right: 2em;
 }
+
