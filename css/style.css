@@ -111,7 +111,6 @@ ul {
 
 }
 
-
 header {
     /*height: 90vh; */
     display: flex;
@@ -128,39 +127,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.menu a {
-    color: darkgray;
-    display: block;
-    padding: 10px 20px;
-    font-family: 'Comfortaa', cursive;
-    font-size: 0.8em;
-    transition: color 1s;
-}
-
-.menu a:active,
-.menu a:hover {
-    color: rgb(45, 121, 235);
-}
-
-.menu ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.menu {
-    background-color: black;
-    position: fixed;
-    width: 100vw;
-    top: 0;
-    z-index: 1;
-}
-
-.menu li {
-    list-style: none;
-}
-
-.about,
-.contact {
+.about {
     padding: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -202,27 +169,10 @@ a:hover {
     text-align: center;
 }
 
-.subtopic li {
-    list-style-type: circle;
-}
-
-.subtopic ul {
-    list-style-type: circle;
-}
-
-h3 {
-    text-align: center;
-    color: rgb(45, 121, 235);
-    font-family: 'Comfortaa', cursive;
-    font-size: 1.5em;
-    margin: 1em;
-}
-
-h2 {
+h1 {
     text-align: center;
     color: darkcyan;
     font-family: 'Comfortaa', cursive;
     font-size: 1.2em;
-    margin-top: 2em;
 }
 
