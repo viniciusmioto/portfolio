@@ -6,7 +6,7 @@
 
 body {
     background: rgb(18, 18, 30);
-    color: darkgrey;
+    color: whitesmoke;
     font-size: 16px;
     font-family: 'Noto Sans', serif;
     text-align: center;
@@ -14,30 +14,41 @@ body {
 }
 
 ul {
-  margin: 0;
+    margin: 0;
 }
 
 .bg-steel {
-  background-color: black;
-  box-shadow: 0.22px 0.22px 0.22px 0.28px rgb(40, 40, 41);
+    background-color: black;
+    box-shadow: 0.22px 0.22px 0.22px 0.28px rgb(40, 40, 41);
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+    color: #cbd5db;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .profile-pic {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.icon-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.print-pic {
+    margin: 1%;
+    width: 25vmax;
 }
 
 @media (min-width: 400px) {
@@ -77,7 +88,7 @@ ul {
 }
 
 @media (min-width: 1000px) {
-    body{
+    body {
         font-size: 22px;
         padding: 0;
     }
@@ -89,7 +100,19 @@ ul {
     .h3 {
         font-size: 0.6em;
     }
-     
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
+    
+    .grid-item {
+        text-align: center;
+        margin-right: 5%;
+        align-self: center;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -171,8 +194,14 @@ a:hover {
 
 h1 {
     text-align: center;
+    color: rgb(45, 121, 235);
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.8em;
+}
+
+h2 {
+    text-align: center;
     color: darkcyan;
     font-family: 'Comfortaa', cursive;
     font-size: 1.2em;
 }
-
