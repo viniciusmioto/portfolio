@@ -205,3 +205,7 @@ h2 {
     font-family: 'Comfortaa', cursive;
     font-size: 1.2em;
 }
+
+h6 {
+    font-size: 55%;
+}
