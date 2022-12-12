@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="208.20888mm"
+   height="181.45776mm"
+   viewBox="0 0 208.20888 181.45776"
+   version="1.1"
+   id="svg627"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="enactus.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview629"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="307.5"
+     inkscape:cy="377"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs624" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.0472282,-48.625988)">
+    <g
+       id="g24"
+       transform="matrix(2.3089167,0,0,2.0123738,-1.2847777,43.657437)">
+      <polygon
+         fill="#ffbf10"
+         points="33.153,92.639 65.207,60.492 91.186,60.492 73.278,42.596 33.153,2.469 33.153,60.492 1.01,60.492 "
+         id="polygon18" />
+      <polygon
+         fill="#c57706"
+         points="33.153,60.493 29.518,60.493 33.153,92.64 "
+         id="polygon20" />
+      <polygon
+         fill="#c57706"
+         points="65.207,60.493 69.216,60.493 78.173,47.49 "
+         id="polygon22" />
+    </g>
+  </g>
+</svg>
