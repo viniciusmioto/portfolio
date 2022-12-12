@@ -14,11 +14,13 @@ body {
 
 p {
     color: white;
+    font-size: 26px;
 }
 
 a {
     color: rgb(0,113,227);
     text-decoration: none;
+    font-size: 26px;
 }
 
 a:hover, .brand-title a:hover {
@@ -32,18 +34,18 @@ a:hover, .brand-title a:hover {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 42px;
     color: white;
 }
 
 h2 {
     font-size: larger;
     color: white;
+    font-size: 36px;
 }
 
 .profile {
-    margin: 20px;
-    font-size: 20px;
+    margin: 2%;
     background-color: rgb(50,50,51);
     border-radius: 2ch;
     padding: 10px;
@@ -121,8 +123,13 @@ h2 {
         align-items: flex-start;
     }
 
+    .navbar .brand-title {
+        font-size: 2.4em;
+    }
+
     .toggle-button {
         display: flex;
+        margin-top: 0.4em;
     }
 
     .navbar-links {
@@ -141,14 +148,15 @@ h2 {
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
+        font-size: 2.2em;
     }
 
     .navbar-links.active {
         display: flex;
     }
 
-    .profile {
-        font-size: 16px;     
+    .profile p, .profile a{
+        font-size: 30px;
     }
 }
 
