@@ -1,66 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Vinicius Mioto, Vinícius Mioto, Vinicius, Mioto, UFPR, Ciência da Computação, Universidade Federal do Paraná, BCC, VINICIUS MIOTO, MIOTO">
-    <meta name="keywords" content="Vinicius, Mioto, UFPR, BCC, Computação">
-    <meta name="author" content="Vinicius Mioto">
-    <title>Portfolio Vinicius Mioto</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="background_styles.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lobster&family=Noto+Sans:wght@400;700&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/389bd9fe93.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="imagem/png" href="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/v-logo.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link rel="canonical" href="https://www.inf.ufpr.br/vm20">
-
-    <header class="site-header">
-        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-            <div class="container">
-                <a class="navbar-brand mr-4" href="./index.html">Vinicius Mioto</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
-                    aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggle">
-                    <div class="navbar-nav mr-auto">
-                        <!-- <a class="nav-item nav-link" href="./sobre.html">sobre</a> -->
-                        <a class="nav-item nav-link" href="./portfolio.html"
-                            style="color:rgb(45, 121, 235);;">portfolio</a>
-                        <!-- <a class="nav-item nav-link" href="https://mioto.netlify.app/#publications">artigos</a> -->
-                        <a class="nav-item nav-link" href="./about.html">sobre</a>
-                        <!-- Navbar Right Side -->
-                    </div>
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="https://mioto.netlify.app/"><i class="fa fa-language"></i>
-                            english</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+    <script src="./js/script.js" defer></script>
+    <link rel="icon" type="imagem/png"
+        href="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/v-logo.png" />
+    <title>Vinicius Mioto</title>
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="brand-title">
+            <a href="./index.html">Vinicius Mioto</a>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="./about.html">sobre</a></li>
+                <li><a href="#" style="color: rgb(0,113,227)">portfolio</a></li>
+                <li><a href="./index.html#contact">contato</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <section class="about">
-
-        <h1>Portfolio</h1>
-
+    <section class="profile">
         <div class="grid-container">
             <div class="grid-item">
                 <h2>Do This</h2>
                 <figure>
-                    <img class="icon-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/dothis.svg" alt="do-this logo">
+                    <img class="icon"
+                        src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/dothis.svg"
+                        alt="do-this logo">
 
                 </figure>
                 <p>
@@ -85,19 +62,23 @@
 
             <div class="grid-item">
                 <figure>
-                    <img class="print-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/do-this.jpg" alt="do-this screenshot">
+                    <img class="print-pic"
+                        src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/do-this.jpg"
+                        alt="do-this screenshot">
                 </figure>
             </div>
 
         </div>
+    </section>
 
-        <br>
-
+    <section class="profile">
         <div class="grid-container">
             <div class="grid-item">
                 <h2>IFPR Sports</h2>
                 <figure>
-                    <img class="icon-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/ifpr_sports.svg" alt="do-this logo">
+                    <img class="icon"
+                        src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/ifpr_sports.svg"
+                        alt="do-this logo">
                 </figure>
                 <p>
                     Aplicativo para smartphones com sistema operacional Android ou iOS, que tem como objetivo facilitar
@@ -120,19 +101,23 @@
             </div>
             <div class="grid-item">
                 <figure>
-                    <img class="print-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/sportif-2.png" alt="do-this screenshot">
+                    <img class="print-pic"
+                        src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/sportif-2.png"
+                        alt="do-this screenshot">
                 </figure>
             </div>
         </div>
+    </section>
 
-        <br>
-
+    <section class="profile">
         <div class="grid-item">
             <div class="grid-container">
                 <div class="grid-item">
                     <h2>A.D.E.G.A.</h2>
                     <figure>
-                        <img class="icon-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/adega.png" alt="do-this logo">
+                        <img class="icon"
+                            src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/adega.png"
+                            alt="do-this logo">
                     </figure>
                     <p>
                         O sistema ADEGA (Análise de Dados Estatísticos da Grade Acadêmica) foi desenvolvido por um grupo
@@ -155,94 +140,86 @@
                 </div>
                 <div class="grid-item">
                     <figure>
-                        <img class="print-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/adega2.png" alt="do-this screenshot">
+                        <img class="print-pic"
+                            src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/adega2.png"
+                            alt="do-this screenshot">
                     </figure>
                 </div>
             </div>
         </div>
-
-        <br>
-
-        <div class="grid-item">
-            <div class="grid-container">
-                <div class="grid-item">
-                    <h2>Aprendizado de Máquina e Grafos</h2>
-                    <figure>
-                        <img class="icon-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/graph.png" alt="do-this logo">
-                    </figure>
-                    <p>
-                        Em 2020 iniciei um projeto de iniciação científica na UFPR com a orientação do Prof. Dr. André
-                        Vignatti e da doutoranda Alane Marie, no laboratório TEORIA da UFPR. Nós desenvolvemos um
-                        projeto de pesquisa que utiliza técnicas de aprendizado de máquina para detectar grafos (redes)
-                        que seguiam a distribuição power-law, utilizando um conjunto reduzido de características desses
-                        grafos.
-                    </p>
-                    <p>
-                        Nessa pesquisa, tive a oportunidade de estudar sobre teoria dos grafos, que está muito presente
-                        nos fenômenos de redes sociais e econômicas, além de entender a aplicação de conceitos de
-                        ciência de dados e aprendizado de máquina.
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <figure>
-                        <img class="print-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/graph2.jpg" alt="do-this screenshot">
-                    </figure>
-                    <h6>[Grandjean 2014]</h6>
-                </div>
-            </div>
-        </div>
-
-        <br>
-
-        <div class="grid-item">
-            <div class="grid-container">
-                <div class="grid-item">
-                    <h2>Outros Projetos</h2>
-                    <figure>
-                        <img class="icon-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/ufpr.jpg" alt="do-this logo">
-                    </figure>
-                    <p>
-                        Desde que entrei na UFPR sempre busquei participar de projetos que envolviam trabalho em grupo.
-                        O primeiro foi o Programa de Educação Tutorial (PET), onde colaborei em trabalhos como o ADEGA,
-                        Mapas da Saúde, Semana de Calouros, Semana Acadêmica. Além disso, pude ministrar uma oficina de
-                        Ciência de Dados e um curso de Linux.
-                    </p>
-                    <p>
-                        Também participei da Enactus, onde eu trabalhei na equipe de Marketing e também fazia funções de
-                        TI. Nosso time da Enactus desenvolve projetos de cunho social, o principal projeto é chamado de
-                        ECOlchão, que visa reciclar esponjas do dia-a-dia para enchimento de colchões. Tanto no PET,
-                        quanto na Enactus participei ativamente nas redes sociais, divulgando o nosso trabalho e
-                        chamando pessoas que tenham interesse de participar nessas atividades.
-                    </p>
-                </div>
-                <div class="grid-item">
-                    <figure>
-                        <img class="print-pic" src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/pet.jpg" alt="do-this screenshot">
-                        <h6>PET Computação 2022</h6>
-                    </figure>
-                </div>
-            </div>
-        </div>
-
-
-        <br><br>
-        <span>
-            <i class="fas fa-envelope"></i> vsmioto@gmail.com <br>
-            <!-- <i class="far fa-envelope"></i> vm20@inf.ufpr.br <br> -->
-            🇧🇷
-        </span>
-
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <section class="profile">
+    <div class="grid-item">
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Aprendizado de Máquina e Grafos</h2>
+                <figure>
+                    <img class="icon"
+                        src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/graph.png"
+                        alt="do-this logo">
+                </figure>
+                <p>
+                    Em 2020 iniciei um projeto de iniciação científica na UFPR com a orientação do Prof. Dr. André
+                    Vignatti e da doutoranda Alane Marie, no laboratório TEORIA da UFPR. Nós desenvolvemos um
+                    projeto de pesquisa que utiliza técnicas de aprendizado de máquina para detectar grafos (redes)
+                    que seguiam a distribuição power-law, utilizando um conjunto reduzido de características desses
+                    grafos.
+                </p>
+                <p>
+                    Nessa pesquisa, tive a oportunidade de estudar sobre teoria dos grafos, que está muito presente
+                    nos fenômenos de redes sociais e econômicas, além de entender a aplicação de conceitos de
+                    ciência de dados e aprendizado de máquina.
+                </p>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img class="print-pic"
+                        src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/graph2.jpg"
+                        alt="do-this screenshot">
+                </figure>
+                <h6>[Grandjean 2014]</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="profile">
+    <div class="grid-item">
+        <div class="grid-container">
+            <div class="grid-item">
+                <h2>Outros Projetos</h2>
+                <figure>
+                    <img class="icon"
+                        src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/ufpr.jpg"
+                        alt="do-this logo">
+                </figure>
+                <p>
+                    Desde que entrei na UFPR sempre busquei participar de projetos que envolviam trabalho em grupo.
+                    O primeiro foi o Programa de Educação Tutorial (PET), onde colaborei em trabalhos como o ADEGA,
+                    Mapas da Saúde, Semana de Calouros, Semana Acadêmica. Além disso, pude ministrar uma oficina de
+                    Ciência de Dados e um curso de Linux.
+                </p>
+                <p>
+                    Também participei da Enactus, onde eu trabalhei na equipe de Marketing e também fazia funções de
+                    TI. Nosso time da Enactus desenvolve projetos de cunho social, o principal projeto é chamado de
+                    ECOlchão, que visa reciclar esponjas do dia-a-dia para enchimento de colchões. Tanto no PET,
+                    quanto na Enactus participei ativamente nas redes sociais, divulgando o nosso trabalho e
+                    chamando pessoas que tenham interesse de participar nessas atividades.
+                </p>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img class="print-pic"
+                        src="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/pet.jpg"
+                        alt="do-this screenshot">
+                    <h6>PET Computação 2022</h6>
+                </figure>
+            </div>
+        </div>
+    </div>
+    </section>
+
 </body>
 
 </html>
