@@ -167,6 +167,11 @@ h2 {
         align-self: center;
     }
 
+    .profile {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
 }
 
 .profile-pic {
@@ -179,6 +184,11 @@ h2 {
     height: 150px;
     width: 150px;
     border-radius: 50%;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
 }
 
 .print-pic {
