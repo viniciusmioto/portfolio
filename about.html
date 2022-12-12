@@ -1,138 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Vinicius Mioto, Vinícius Mioto, Vinicius, Mioto, UFPR, Ciência da Computação, Universidade Federal do Paraná, BCC, VINICIUS MIOTO, MIOTO">
-    <meta name="keywords" content="Vinicius, Mioto, UFPR, BCC, Computação">
-    <meta name="author" content="Vinicius Mioto">
-    <title>Portfolio Vinicius Mioto</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lobster&family=Noto+Sans:wght@400;700&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/389bd9fe93.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="imagem/png" href="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/v-logo.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link rel="canonical" href="https://www.inf.ufpr.br/vm20">
-
-    <header class="site-header">
-        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-            <div class="container">
-                <a class="navbar-brand mr-4" href="./index.html">Vinicius Mioto</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
-                    aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggle">
-                    <div class="navbar-nav mr-auto">
-                        <!-- <a class="nav-item nav-link" href="./sobre.html">sobre</a> -->
-                        <a class="nav-item nav-link" href="./portfolio.html">portfolio</a>
-                        <!-- <a class="nav-item nav-link" href="https://mioto.netlify.app/#publications">artigos</a> -->
-                        <a class="nav-item nav-link" href="./sobre.html" style="color:rgb(45, 121, 235);;">sobre</a>
-                        <!-- Navbar Right Side -->
-                    </div>
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="https://mioto.netlify.app/"><i class="fa fa-language"></i>
-                            english</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
+    <link rel="stylesheet" href="background_styles.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <link rel="icon" type="imagem/png"
+        href="https://raw.githubusercontent.com/viniciusmioto/portfolio/master/img/v-logo.png" />
+    <title>Vinicius Mioto</title>
 </head>
-
 <body>
+    <nav class="navbar">
+        <div class="brand-title"> 
+            <a href="./index.html">Vinicius Mioto</a>
+            </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="./about.html" style="color: rgb(0,113,227)">sobre</a></li>
+                <li><a href="./portfolio.html">portfolio</a></li>
+                <li><a href="./index.html#contact">contato</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <section class="about">
-
-        <h1>Sobre</h1>
-
-        <p> Meu nome é Vinicius Mioto, nasci em Curitiba no ano de 2001. Meu interesse por tecnologia começou cedo,
-            desde
-            criança meu tio me ensinava a desmontar carrinhos de controle remoto para montar novamente (nem sempre
-            voltavam
-            a funcionar). Também tive contato muito cedo com computadores por conta do meu pai que possuía um em casa,
-            logo
-            aprendi como acessar a internet, navegar em sites e me divertir com jogos.
+    <section class="profile" id="profile">
+        <figure>
+            <img class="icon" src="./img/books.jpeg" alt="educação">
+        </figure>
+        </figure>
+        <h1>Formação</h1>
+        <p>
+            🏫 Informática - IFPR (2016 - 2019)
         </p>
         <p>
-            Em 2016, tive meu primeiro contato com a programação de fato, no curso Técnico em Informática do IFPR, onde
-            iniciei com pseudo-código e linguagem C para criar meus primeiros programas. No Instituto Federal tive a
-            oportunidade de conhecer bastante sobre a área de tecnologia e perceber que existiam infinitas
-            possibilidades
-            para os que trilhassem esse caminho.
+            🏛️ Ciência da Computação - UFPR (2020 - 202?)
         </p>
-        <p>
-            Ainda no IFPR fiz diversas amizades, muitas delas fora da minha turma devido ao futebol que eu praticava no
-            campus, cheguei a participar de algumas competições (mesmo não sendo muito talentoso em esportes). Os
-            esportes
-            me ensinaram muito sobre a vida em geral, enfrentar adversidades, superar os meus limites e, principalmente,
-            o
-            espírito de equipe.
-        </p>
-        Tive a oportunidade de desenvolver vários projetos em grupo no curso técnico, aplicativos, sites, sistemas e até
-        mesmo um drone! Além disso, fui monitor da disciplina de matemática durante um semestre, até iniciar meu
-        primeiro estágio na área de Marketing. A princípio, meu estágio não tinha muita relação com a área que eu
-        estudava, mas decidi fazer mesmo assim, pois sabia que essa era uma oportunidade de conhecer uma nova área e
-        quem sabe desenvolver novas habilidades.
-        </p>
-        <p>
-            Em 2020, entrei para o curso de Ciência da Computação da Universidade Federal do Paraná, onde já nos
-            primeiros
-            meses procurei entrar em um projeto multidisciplinar e que envolvesse trabalho em grupo. Minha escolha foi o
-            PET
-            Computação, com o grupo aprendi muito sobre organização de eventos, pesquisa científica, programação e
-            tecnologia em geral.
-        </p>
-        <p>
-            Em 2021, comecei a trabalhar como voluntário na Enactus no setor de Marketing (novamente), além de fazer
-            algumas
-            funções de T.I. para o grupo. Com eles tive a oportunidade de entender a importância desses projetos de
-            extensão, os quais visam levar as produções feitas dentro da universidade para fora dela, ajudando a
-            comunidade
-            externa.
-        </p>
-        <p>
-            Atualmente, não sou mais um membro desses grupos, mas participo de atividades como um alumni (e
-            conselheiro).
-            Foram anos de muito aprendizado com esses grupos. Estou fazendo um estágio como Engenheiro de Dados no
-            Departamento de Estatística da UFPR.
-        </p>
-        <p>
-            Venho me dedicando a atividades pessoais como academia (desde que parei de jogar futebol) e também música
-            (toco
-            violão e guitarra). Gosto de passar meu tempo livre assistindo filmes e séries, principalmente de ação ou
-            ficção
-            científica. Também vejo vários vídeos e notícias sobre o mundo da tecnologia no YouTube.
-        </p>
-
-        <br><br>
-        <span>
-            <i class="fas fa-envelope"></i> vsmioto@gmail.com </p>
-            <p>
-                <!-- <i class="far fa-envelope"></i> vm20@inf.ufpr.br </p><p> -->
-                🇧🇷
-        </span>
 
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</body>
+    <section class="profile" id="profile">
+        <figure>
+            <img class="icon" src="./img/rocket.jpeg" alt="educação">
+        </figure>
+        </figure>
+        <h1>Atividades</h1>
+        <p>
+            🔎 PET Computação (2020 - 2022)
+        </p>
+        <p>
+            🐤 Enactus (2021 - 2022)
+        </p>    
+        <p>
+            🖥️ C3SL (2023 - 202?)
+        </p>
 
+    </section>
+</body>
 </html>
