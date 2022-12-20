@@ -7,7 +7,7 @@
 
 .dark {
     --bg: black;
-    --card-bg: rgb(50,50,51);
+    --card-bg: rgb(50, 50, 51);
     --text: white;
 }
 
@@ -32,12 +32,13 @@ p {
 }
 
 a {
-    color: rgb(0,113,227);
+    color: rgb(0, 113, 227);
     text-decoration: none;
     font-size: 26px;
 }
 
-a:hover, .brand-title a:hover {
+a:hover,
+.brand-title a:hover {
     color: cornflowerblue;
     text-decoration: none;
     transition: .5s;
@@ -58,6 +59,10 @@ h2 {
     font-size: 36px;
 }
 
+h6 {
+    color: var(--text);
+}
+
 header {
     position: fixed;
     top: 0;
@@ -69,7 +74,7 @@ header {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(50,50,51,255);
+    background-color: rgba(50, 50, 51, 255);
     color: white;
 }
 
@@ -117,7 +122,7 @@ header {
 }
 
 .navbar-links li:hover {
-    background-color: rgba(65,65,72,255);
+    background-color: rgba(65, 65, 72, 255);
     transition: .5s;
 }
 
@@ -130,7 +135,7 @@ header {
     justify-content: space-between;
     width: 30px;
     height: 21px;
-    background-color: rgba(50,50,51,255);
+    background-color: rgba(50, 50, 51, 255);
 }
 
 .theme-switch {
@@ -201,7 +206,8 @@ header {
         display: flex;
     }
 
-    .profile p, .profile a{
+    .profile p,
+    .profile a {
         font-size: 34px;
     }
 }
@@ -214,7 +220,7 @@ header {
         grid-template-columns: auto auto;
         padding: 10px;
     }
-    
+
     .grid-item {
         text-align: center;
         margin-right: 5%;
