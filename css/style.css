@@ -1,3 +1,16 @@
+/* COLOR THEMES */
+.light {
+    --bg: rgb(220, 220, 230);
+    --card-bg: white;
+    --text: black;
+}
+
+.dark {
+    --bg: black;
+    --card-bg: rgb(50,50,51);
+    --text: white;
+}
+
 /* BASE AND NAVBAR */
 
 * {
@@ -8,12 +21,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: var(--bg);
     text-align: center;
+    transition: background-color 500ms ease-in-out, color 1000ms ease-in-out;
 }
 
 p {
-    color: white;
+    color: var(--text);
     font-size: 26px;
 }
 
@@ -35,26 +49,19 @@ a:hover, .brand-title a:hover {
 
 h1 {
     font-size: 42px;
-    color: white;
+    color: var(--text);
 }
 
 h2 {
     font-size: larger;
-    color: white;
+    color: var(--text);
     font-size: 36px;
 }
 
-.profile {
-    margin: 2%;
-    background-color: rgb(50,50,51);
-    border-radius: 2ch;
-    padding: 10px;
-    color: white;
-}
-
-.profile li {
-    color: white;
-    text-align: left;
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .navbar {
@@ -64,6 +71,22 @@ h2 {
     align-items: center;
     background-color: rgba(50,50,51,255);
     color: white;
+}
+
+.profile {
+    display: grid;
+    margin: 2rem;
+    margin-top: 6rem;
+    margin-bottom: -4rem;
+    background-color: var(--card-bg);
+    border-radius: 2ch;
+    padding: 2vh;
+    color: white;
+}
+
+.profile li {
+    color: white;
+    text-align: left;
 }
 
 .brand-title {
@@ -108,6 +131,27 @@ h2 {
     width: 30px;
     height: 21px;
     background-color: rgba(50,50,51,255);
+}
+
+.theme-switch {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    background: var(--text);
+    color: var(--bg);
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px grey;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-switch i {
+    padding: 50px;
 }
 
 .toggle-button .bar {
