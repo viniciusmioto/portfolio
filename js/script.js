@@ -11,12 +11,12 @@ const themeSwitcher = document.getElementById('theme-btn');
 const body = document.body;
 
 themeSwitcher.addEventListener('click', function() {
-  this.classList.toggle('bi-brightness-high-fill');
+  this.classList.toggle('bi-brightness-high-fill')
 
   if (this.classList.toggle('bi-moon')) {
-    body.classList.replace('dark', 'light');
+    body.classList.replace('dark', 'light')
   } else {
-    body.classList.replace('light', 'dark');
+    body.classList.replace('light', 'dark')
   }
 
 });

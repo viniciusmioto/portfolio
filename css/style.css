@@ -134,7 +134,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 20px;
     background-color: rgba(50, 50, 51, 255);
 }
 
@@ -142,8 +142,8 @@ header {
     position: fixed;
     bottom: 32px;
     right: 32px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background: var(--text);
     color: var(--bg);
     border-radius: 50%;
@@ -156,7 +156,7 @@ header {
 }
 
 .theme-switch i {
-    padding: 50px;
+    padding: 30px;
 }
 
 .toggle-button .bar {
@@ -209,6 +209,11 @@ header {
     .profile p,
     .profile a {
         font-size: 34px;
+    }
+
+    .theme-switch {
+        width: 90px;
+        height: 90px;
     }
 }
 
